@@ -1,0 +1,20 @@
+body { margin: 0; font-family: Arial; background: #f4f6f8; }
+.app-layout { display: flex; }
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #1e293b;
+  color: white;
+  padding: 20px;
+}
+.sidebar a { display:block; color:white; margin:10px 0; text-decoration:none; }
+
+.main { flex: 1; }
+
+.navbar {
+  display:flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: white;
+}
